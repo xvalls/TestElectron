@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TF Corporate PoC</title>
+  </head>
+  <body>
+    <script>
+      let os = require('os')
+    </script>
+    <h1>TF Corporate Proof of Concept.</h1>
+
+    Software: <br/>
+    <li>Node: <script>document.write(process.versions.node)</script> </li>
+    <li>Chrome:  <script>document.write(process.versions.chrome)</script></li>
+    <li>Electron: <script>document.write(process.versions.electron)</script></li>
+
+
+    <br/>
+    Platform:
+    <li>User: <script>os.userInfo()</script></li>
+    <li>Platform: <script>document.write(os.platform())</script> </li>
+    
+    <a href="http://www.google.cat">Google</a>
+
+  </body>
+</html>
