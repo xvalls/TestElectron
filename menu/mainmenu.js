@@ -3,7 +3,7 @@ const electron = require('electron')
 const handlers = require('./menuHandlers')
 const app = electron.app
 
-
+// Menu exemple
 const menuTemplate = [
     {
       label: 'Test',
